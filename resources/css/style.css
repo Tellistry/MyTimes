@@ -2,7 +2,7 @@ header{
 	display: flex;
 	align-items: center;
 	font-family: Verdana;
-	padding-bottom: 10px;
+	padding-bottom: 10px; 
 	border-bottom: 1px solid black;
 	
 }
@@ -17,7 +17,7 @@ a{
 }
 nav{
 	position: relative;
-	right: -1105px;
+	right: -15px;
 }
 h1{
 	font-size: 14px;
@@ -25,5 +25,72 @@ h1{
 	padding-left: 10px;
 }
 .logo{
-	padding-left: 20px;
+	padding-left: 30px;
 }
+.letterhead{
+	display: flex;
+	border: 1px solid black;
+	width: 1250px;
+	align-items: center;
+}
+.container{
+	border: 1px solid black;
+	margin: 0 120px;
+}
+
+.row {
+	display: inline-flex;
+  	margin-top: 20px;
+}
+.large{
+  border: 1px solid black;
+  width: 630px;
+  display: flex;
+}
+.medium{
+  border: 1px solid black;
+  width: 300px;
+  margin: 0 0 0 55px;
+  display: flex;
+}
+.small{
+  border: 1px solid black;
+  width: 240px;
+  margin: 0 0 0 55px ;
+  display: flex;
+}
+.box{
+	border: 1px solid black;
+}
+.box1{
+	border-style: solid;
+	border-width: 2px 2px 1px;
+}
+.box3{
+	border-style: solid;
+	border-width: 3px 3px 1px;
+}
+.box4{
+	border-style: solid;
+	border-width: 1px 3px 1px;
+}
+.box6{
+	border-style: solid;
+	border-width: 1px 3px 3px;
+}
+.box7{
+	border-style: solid;
+	border-width: 3px 3px 1px;
+}
+.box8{
+	border-style: solid;
+	border-width: 1px 1px 2px;
+}
+.column{
+	flex-direction: column;
+}
+#headline{
+	margin: 0px;
+}
+
+
