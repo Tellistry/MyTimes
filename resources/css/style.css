@@ -24,105 +24,175 @@ h1{
 	color: mediumaquamarine;
 	padding-left: 10px;
 }
+h2{
+	font-family: Georgia;
+	font-size: 40px;
+	color: white;
+	margin-top: 0px;
+}
+h3{
+	font-family: Georgia;
+	font-size: 23px;
+	font-weight: bold;
+}
+h4{
+	font-family: Georgia;
+	font-size: 30px;
+	color: white;
+	margin-top: 0px;
+	text-align: center;
+
+}
+p{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.bites{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
 .logo{
 	padding-left: 30px;
 }
 .letterhead{
 	display: flex;
-	border: 1px solid black;
 	width: 1250px;
 	align-items: center;
 }
-.container{
-	border: 1px solid black;
-	margin: 0 120px;
+.main{
+	margin:auto;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	width: 85%;
+	display: flex;	
 }
-
-.row {
-	display: inline-flex;
-  	margin-top: 20px;
+.container{
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .large{
-  border: 1px solid black;
   width: 630px;
-  display: flex;
+  
 }
 .medium{
-  border: 1px solid black;
   width: 300px;
-  margin: 0 0 0 55px;
-  display: flex;
+  margin: 0 0px 0 80px;
+  
 }
 .small{
-  border: 1px solid black;
+  margin: 0 0 0 80px ;
   width: 240px;
-  margin: 0 0 0 55px ;
-  display: flex;
 }
 .box{
-	border: 1px solid black;
-}
-.box1{
-	border-style: solid;
-	border-width: 2px 2px 1px;
-	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
-	display: flex;
 	height: 300px;
 }
 
+.box1{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+
+}
+.box1a{
+	height: 300px;
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+}
+.box2{
+	height: 624px;
+	display: flex;
+	flex-wrap: wrap;
+
+}
 .box3{
-	border-style: solid;
-	border-width: 3px 3px 1px;
+  min-height: 300px;
+  width: 299px;
+  margin: 1px;
+  padding: 3px;
+}
+.box3a{
+  min-height: 300px;
+  width: 299px;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+ }
+.bgimg1{
+background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+background-repeat: no-repeat;
+}
+.bgimg2{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+	background-repeat: no-repeat;
+}
+.bgimg3{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+	background-repeat: no-repeat;
+}
+#flexcenter{
+	align-content: center;
 }
 .box4{
-	border-style: solid;
-	border-width: 1px 3px 1px;
-	display: flex;
-	height: 300px;
-	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
-	margin-top: 15px;
+  background-color: WhiteSmoke;
+  align-items: column;
 }
-.box6{
-	border-style: solid;
-	border-width: 1px 3px 3px;
-	height: 300px;
-	display: flex;
-	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
-	margin-top: 15px;
-}
-.box7{
-	border-style: solid;
-	border-width: 3px 3px 1px;
-}
-.box8{
-	border-style: solid;
-	border-width: 1px 1px 2px;
-}
-.box9{
-	border-style: solid;
-	border-width: 2px 2px 1px;
-	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
-	height: 300px;
-	display: flex;
-}
-.column{
-	flex-direction: column;
-}
-.headline{
-	font-family: Georgia;
-	font-weight: bold;
-	font-size: 40px;
-	color: white;
-	margin-top: 0px;
-}
-.headline1{
-	font-family: Georgia;
-	font-weight: bold;
-	font-size: 30px;
-	color: white;
-	margin-top: 0px;
-	text-align: center;
-}
-	
+.box5 p{
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 5px 23px;
+  margin-bottom: 0px;
 
+
+}
+
+footer {
+  background-color: mediumaquamarine;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+.mainbox{
+  height: 70px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nested1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.nested2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#NY{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin: auto;
+}
+#footertext{
+  margin: 7px auto;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: normal;
+}
+#footertext li{
+ margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: normal;
+}
 
