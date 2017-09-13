@@ -4,20 +4,30 @@ header{
 	font-family: Verdana;
 	padding-bottom: 10px; 
 	border-bottom: 1px solid black;
+	position: fixed;
+	background-color: white;
+	top: 0;
+	margin: auto;
 	
+}
+body{
+	width: 100%;
+	margin: auto;
 }
 nav li{
 	display: inline-block;
-	padding: 0px 10px;
 	font-size: 14px;
 	font-weight: bold;
+	margin-left: 10px;
+	padding-left: 25px;
+
 }
 a{
 	color: black;
 }
 nav{
 	position: relative;
-	right: -15px;
+	right: 5px;
 }
 h1{
 	font-size: 14px;
@@ -63,7 +73,7 @@ p{
 }
 .main{
 	margin:auto;
-	margin-top: 30px;
+	margin-top: 100px;
 	margin-bottom: 80px;
 	width: 85%;
 	display: flex;	
